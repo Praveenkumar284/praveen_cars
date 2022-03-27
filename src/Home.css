@@ -1,0 +1,11 @@
+#explore{
+    font-size: 36px;
+    text-decoration: none;
+    color: #ea5844;
+    border-radius: 30px;
+    background-color: #efe2e2;
+}
+#explore:hover{
+    box-shadow: 4px 3px 9px -1px gray;
+    transform: translateX(5px);
+}

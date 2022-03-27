@@ -1,0 +1,60 @@
+.main-Register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.left-Side{
+    flex: 0.3;
+    background-color: darkseagreen;
+}
+.right-Side{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.top-right{
+    float: right;
+    margin-right: 1.5rem;
+    font-weight: 600;
+}
+h4{
+    font-weight: bold;
+    color: cadetblue;
+}
+#link-signin{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 0.3rem;
+    color: darkseagreen;
+}
+#link-signin:hover{
+    color: darkolivegreen;
+}
+.body-right{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 80%;
+    width: 60%;
+    margin: 2rem auto;
+    box-shadow: 0rem 0rem 2rem 0.1rem #5ec3d9;
+    border-radius: 0.5rem;
+}
+.SignUp-Details{
+    width: 60%;
+    position: relative;
+}
+h5{
+    font-size: small;
+    font-weight: 300;
+    color: gray;
+    position: absolute;
+    left: 2rem;
+    top: 0.5rem;
+    background: white;
+}

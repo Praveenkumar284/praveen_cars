@@ -1,0 +1,39 @@
+.Home {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  margin: 0 0 120px;
+  pointer-events: none;
+  width:1350px;
+}
+.btn{
+  display: inline-block;
+  font-size: 30px;
+  position: relative;
+  top: -75px;
+  background-color: #ea5844;
+  color:#fff;
+  padding:8px 30px ;
+  margin: 30px 0px;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+
+
+.App-header {
+  background:radial-gradient(#fff,#dfb6b6);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
